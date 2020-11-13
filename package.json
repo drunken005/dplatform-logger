@@ -1,0 +1,23 @@
+{
+  "name": "dplatform-logger",
+  "version": "1.0.0",
+  "description": "logger for log4js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunken005/dplatform-logger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drunken005/dplatform-logger/issues"
+  },
+  "homepage": "https://github.com/drunken005/dplatform-logger#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "log4js": "^6.3.0"
+  }
+}
