@@ -68,7 +68,7 @@ let createLogConfig = (options) => {
             pattern:     ".yyyy-MM-dd",
             encoding:    "utf-8",
             keepFileExt: true,
-            daysToKeep: options.daysToKeep,
+            numBackups: options.numBackups,
         },
         errors:      {
             type:        "dateFile",
@@ -77,7 +77,7 @@ let createLogConfig = (options) => {
             pattern:     ".yyyy-MM-dd",
             encoding:    "utf-8",
             keepFileExt: true,
-            daysToKeep: options.daysToKeep,
+            numBackups: options.numBackups,
         },
         transaction: {
             type:        "dateFile",
@@ -86,7 +86,7 @@ let createLogConfig = (options) => {
             pattern:     ".yyyy-MM-dd",
             encoding:    "utf-8",
             keepFileExt: true,
-            daysToKeep: options.daysToKeep,
+            numBackups: options.numBackups,
         },
         alarm:       {
             type:        "dateFile",
@@ -95,7 +95,7 @@ let createLogConfig = (options) => {
             pattern:     ".yyyy-MM-dd",
             encoding:    "utf-8",
             keepFileExt: true,
-            daysToKeep: options.daysToKeep,
+            numBackups: options.numBackups,
         },
     };
 

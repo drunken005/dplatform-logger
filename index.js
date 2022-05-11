@@ -113,7 +113,7 @@ const _logOptions = (serviceName) => {
     return {
         logDir:        path.join(path.resolve("."), "log", serviceName),
         monitorLogDir: path.join(path.resolve("."), "log"),
-        daysToKeep:    5,
+        numBackups:    5,
         serviceName:   serviceName || "alarm",
     };
 };
